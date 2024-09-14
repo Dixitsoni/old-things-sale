@@ -17,13 +17,29 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* color: rgb(var(--foreground-rgb));
+  font-family: Lucida Console, Courier New, monospace; */
+}
+
+.group{
+  /* border: 1px solid grey; */
+  box-shadow: 0px 0px 5px grey;
+}
+
+.group:hover{
+
+}
+
+.container-div {
+  background-image: url('./assets/images/clothing-store-flat-set-people-buying-trying-new-clothes-fitting-room-isolated-vector-illustration_1284-79311.jpg');
+}
+
+a {
+  line-height: 2;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @layer utilities {
